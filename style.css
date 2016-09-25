@@ -1,0 +1,123 @@
+header {
+    background-color: azure;
+}
+
+body {
+    background-color: black;
+    font: lucida white sans-serif;
+    font-size: 20px;
+}
+
+div {
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.board {
+    width: 612px;
+    height: 612px;
+}
+
+.topLeft {
+    box-sizing: border-box;
+    width: 30%;
+    height: 30%;
+    border: 1px solid green;
+    display: inline-block;
+    white-space: nowrap;
+    float: left;
+    /* position: absolute; */
+}
+
+.topMiddle {
+    box-sizing: border-box;
+    width: 30%;
+    height: 30%;
+    border: 1px solid crimson;
+    display: inline-block;
+    margin: 0 5% 0 5%
+    /* white-space: nowrap; */
+    /* position: absolute; */
+}
+
+.topRight {
+    box-sizing: border-box;
+    width: 30%;
+    height: 30%;
+    border: 1px solid green;
+    display: inline-block;
+    float: right;
+    /* padding-left: 0.2px; */
+}
+
+.midLeft {
+    box-sizing: border-box;
+    width: 30%;
+    height: 30%;
+    border: 1px solid green;
+    display: inline-block;
+    white-space: nowrap;
+    float: left;
+    /* position: absolute; */
+}
+
+.midCentre {
+    box-sizing: border-box;
+    width: 30%;
+    height: 30%;
+    border: 1px solid crimson;
+    display: inline-block;
+    margin: 0 5% 0 5%
+    /* white-space: nowrap; */
+    /* position: absolute; */
+}
+
+.midRight {
+    box-sizing: border-box;
+    width: 30%;
+    height: 30%;
+    border: 1px solid green;
+    display: inline-block;
+    float: right;
+    /* padding-left: 0.2px; */
+}
+
+.bottomLeft {
+    box-sizing: border-box;
+    width: 30%;
+    height: 30%;
+    border: 1px solid green;
+    display: inline-block;
+    white-space: nowrap;
+    float: left;
+    /* position: absolute; */
+}
+
+.bottomMiddle {
+    box-sizing: border-box;
+    width: 30%;
+    height: 30%;
+    border: 1px solid crimson;
+    display: inline-block;
+    margin: 0 5% 0 5%
+    /* white-space: nowrap; */
+}
+
+.bottomRight {
+    box-sizing: border-box;
+    width: 30%;
+    height: 30%;
+    display: inline-block;
+    float: right;
+    border: 1px solid green;
+    /* padding-left: 0.2px; */
+}
+
+#button {
+    margin: 0 auto;
+    text-indent: 45%;
+}
